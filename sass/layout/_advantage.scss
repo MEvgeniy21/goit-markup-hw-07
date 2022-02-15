@@ -1,0 +1,14 @@
+.advantage__title {
+  @extend %title;
+  @extend %font-title;
+}
+
+.feature-list__icon--bg {
+  display: flex;
+  height: 120px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-bg-color;
+  border-radius: 4px;
+}

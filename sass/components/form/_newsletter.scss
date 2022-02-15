@@ -24,6 +24,7 @@
   &::placeholder {
     color: $contact-text-color;
   }
+  &:hover,
   &:focus {
     border: 1px solid $activated-color;
   }
