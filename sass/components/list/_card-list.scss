@@ -17,10 +17,10 @@
 }
 
 .card-list__title {
-  @extend %title;
   font-size: inherit;
   margin-bottom: 10px;
   font-weight: 500;
+  color: $title-text-color;
 }
 
 .card-list__content {

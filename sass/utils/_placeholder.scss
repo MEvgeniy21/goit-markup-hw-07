@@ -23,13 +23,6 @@
   text-transform: uppercase;
 }
 
-/* Общий шрифт title */
-%font-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
 /* общие свойства списков в шапке */
 %header-list {
   display: flex;
@@ -43,9 +36,4 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-/* общие свойства заголовков h2, h3 */
-%title {
-  color: $title-text-color;
 }

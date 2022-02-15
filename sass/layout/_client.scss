@@ -1,7 +1,5 @@
 /* Секция клиентов */
 .client__title {
-  @extend %title;
-  @extend %font-title;
   margin-bottom: 50px;
 }
 

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* общие свойства списков */
-.navigation__list, .address__list, .social-list, .feature-list, .card-list, .header__list, .gallery__list, .client__list {
+.navigation__list, .address__list, .social-list, .card-list, .header__list, .advantage__list, .gallery__list, .client__list {
   list-style: none;
 }
 
@@ -17,18 +17,11 @@
 }
 
 /* Общий шрифт uppercase */
-.newsletter__title, .feature-list__title, .footer__title, .gallery__text {
+.newsletter__title, .footer__title, .advantage__title, .gallery__text {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-/* Общий шрифт title */
-.advantage__title, .gallery__title, .team__title, .client__title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 /* общие свойства списков в шапке */
@@ -44,11 +37,6 @@
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-/* общие свойства заголовков h2, h3 */
-.feature-list__title, .card-list__title, .advantage__title, .gallery__title, .team__title, .client__title {
-  color: #212121;
 }
 
 /* сброс марджинов и паддингов */
@@ -145,6 +133,14 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: #2196f3;
+}
+
+/*h2 title */
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
 }
 
 /* контакты в footer */
@@ -259,21 +255,6 @@ body {
   background-color: #188ce8;
 }
 
-.feature-list {
-  display: flex;
-  margin-left: -30px;
-}
-
-.feature-list__item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-}
-
-.feature-list__title {
-  margin-bottom: 10px;
-  font-size: inherit;
-}
-
 .card-list {
   display: flex;
   margin-left: -30px;
@@ -290,6 +271,7 @@ body {
   font-size: inherit;
   margin-bottom: 10px;
   font-weight: 500;
+  color: #212121;
 }
 
 .card-list__content {
@@ -613,7 +595,24 @@ body {
   margin-right: auto;
 }
 
-.feature-list__icon--bg {
+/* Секция преимуществ */
+.advantage__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.advantage__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.advantage__title {
+  margin-bottom: 10px;
+  font-size: inherit;
+  color: #212121;
+}
+
+.advantage__icon--bg {
   display: flex;
   height: 120px;
   margin-bottom: 30px;

@@ -1,9 +1,23 @@
-.advantage__title {
-  @extend %title;
-  @extend %font-title;
+/* Секция преимуществ */
+.advantage__list {
+  @extend %list;
+  display: flex;
+  margin-left: -30px;
 }
 
-.feature-list__icon--bg {
+.advantage__item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+}
+
+.advantage__title {
+  @extend %font-uppercase;
+  margin-bottom: 10px;
+  font-size: inherit;
+  color: $title-text-color;
+}
+
+.advantage__icon--bg {
   display: flex;
   height: 120px;
   margin-bottom: 30px;
